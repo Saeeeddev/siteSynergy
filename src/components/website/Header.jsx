@@ -1,10 +1,22 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import '../../style/Header.css';
 
 function Header() {
+  const [isScrolled, setIsScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrolled = window.scrollY > 370;
+      setIsScrolled(scrolled);
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
+
   return (
-    <header className="header__container">
-      <div className="header__wrapper">
+    <header className={`header__container ${isScrolled ? 'header__container--scrolled' : ''}`}>
+      <div className={`header__wrapper ${isScrolled ? 'header__wrapper--scrolled' : ''}`}>
         {/* Logo Placeholder */}
         <div className="header__logo-placeholder">
           {/* Replace with actual logo */}
