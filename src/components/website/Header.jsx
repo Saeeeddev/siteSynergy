@@ -8,7 +8,7 @@ function Header() {
         {/* Logo Placeholder */}
         <div className="header__logo-placeholder">
           {/* Replace with actual logo */}
-          <div className="header__logo-image"> <img src="" alt="" /></div>
+          <div className="header__logo-image"> <img src="/src/assets/sitesynergy_logo_white.png" alt="" /></div>
         </div>
 
         {/* Navigation Menu */}

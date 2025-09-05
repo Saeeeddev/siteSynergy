@@ -36,14 +36,15 @@
   width: 100%;
   height: 100%;
   border-radius: 999px;
-  background-color: rgba(255, 255, 255, 0.1); /* Temporary placeholder */
+  background-color: transparent; /* Temporary placeholder */
 }
 
 /* Navigation Menu */
 .header__nav-menu {
   height: 45px;
   width: 405px;
-  background-color: #292A2B;
+  background-color: #6d7f9f;
+   /* background-color: #292A2B; */
   border-radius: 999px;
   display: flex;
   align-items: center;
@@ -74,7 +75,7 @@
 .header__actions {
   height: 45px;
   width: 265px;
-  background-color: #292A2B;
+  background-color: #6d7f9f;
   border-radius: 999px;
   display: flex;
   align-items: center;
@@ -98,7 +99,7 @@
   width: 143px;
   height: 32px;
   background-color: #ffffff;
-  color: #292A2B;
+  color: #6d7f9f;
   border: none;
   border-radius: 999px;
   font-size: 16px;

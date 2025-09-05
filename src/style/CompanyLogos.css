@@ -1,0 +1,23 @@
+.company-logos__container {
+  width: 1200px;
+  height: 64px;
+  margin: 80px auto;
+  background-color: #f7f7f7;
+  border-radius: 12px;
+}
+
+.company-logos__inner {
+  width: 1040px;
+  height: 64px;
+  margin: 0 auto;
+  padding: 0 40px;
+  display: flex;
+  align-items: center;
+}
+
+/* Style for the tech icons */
+.company-logos__inner svg {
+  width: 60px;
+  height: 60px;
+  color: #6d7f9f;
+}

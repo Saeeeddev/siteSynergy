@@ -7,11 +7,11 @@ function Hero() {
     <div className="hero__container">
       <div className="hero__background">
         <LiquidChrome
-          baseColor={[0, 0.1, 0.1]}
+          baseColor={[0, 0.1, 0.2]}
           speed={0.3}
-          amplitude={0.5}
+          amplitude={0.25}
        
-          interactive={true}
+          interactive={false}
         />
       </div>
       <div className="hero__content-box">
