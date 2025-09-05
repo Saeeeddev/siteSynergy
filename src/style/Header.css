@@ -1,0 +1,116 @@
+/* Header Container */
+.header__container {
+  position: fixed;
+  top: 23px;
+  left: 0;
+  right: 0;
+  height: 62px;
+  display: flex;
+  justify-content: center;
+  z-index: 1000;
+  padding: 0 20px; /* Add some padding for mobile */
+}
+
+/* Header Wrapper */
+.header__wrapper {
+  width: 100%;
+  max-width: 1120px;
+  display: flex;
+  padding: 10px 0 10px 10px;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  background: transparent;
+}
+
+/* Logo Placeholder */
+.header__logo-placeholder {
+  width: 205px;
+  height: 45px;
+  display: flex;
+  
+  align-items: center;
+}
+
+.header__logo-image {
+  width: 100%;
+  height: 100%;
+  border-radius: 999px;
+  background-color: rgba(255, 255, 255, 0.1); /* Temporary placeholder */
+}
+
+/* Navigation Menu */
+.header__nav-menu {
+  height: 45px;
+  width: 405px;
+  background-color: #292A2B;
+  border-radius: 999px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header__nav-list {
+  display: flex;
+  list-style: none;
+  gap: 32px;
+  margin: 0;
+  padding: 0;
+}
+
+.header__nav-item {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: opacity 0.2s ease;
+}
+
+.header__nav-item:hover {
+  opacity: 0.8;
+}
+
+/* Actions Section */
+.header__actions {
+  height: 45px;
+  width: 265px;
+  background-color: #292A2B;
+  border-radius: 999px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 3px 0 12px;
+}
+
+.header__login-link {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  transition: opacity 0.2s ease;
+}
+
+.header__login-link:hover {
+  opacity: 0.8;
+}
+
+.header__get-started-btn {
+  width: 143px;
+  height: 32px;
+  background-color: #ffffff;
+  color: #292A2B;
+  border: none;
+  border-radius: 999px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.header__get-started-btn:hover {
+  transform: translateY(-1px);
+}
+
+/* Ensure no class name conflicts */
+/* All classes are prefixed with header__ */
+/* BEM-like naming convention used */
