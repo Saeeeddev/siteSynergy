@@ -16,7 +16,7 @@ function HeroVideoDemo() {
             playsInline
             style={{ width: '100%', height: '100%', objectFit: 'cover' }}
           >
-            <source src="/src/assets/demos/hero-dark-lg.webm" type="video/webm" />
+            <source src="/src/assets/demos/hero-light-lg.webm" type="video/webm" style={{ objectFit: 'cover' }}/>
           </video>
         </div>
       </div>

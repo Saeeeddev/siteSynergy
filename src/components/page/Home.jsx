@@ -7,6 +7,7 @@ import EmptySection from '../website/EmptySection';
 function Home() {
   return (
     <main>
+        
       <Hero />
       <HeroVideoDemo />
       <CompanyLogos />
