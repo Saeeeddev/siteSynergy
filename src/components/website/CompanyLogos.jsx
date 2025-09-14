@@ -13,6 +13,11 @@ const techLogos = [
 function CompanyLogos() {
   return (
     <div className="company-logos__container">
+        <div
+        className="company-logos__header">
+            <h1>Companies choosing SiteSynergy</h1>
+        </div>
+
       <div className="company-logos__inner">
         <LogoLoop
           logos={techLogos}

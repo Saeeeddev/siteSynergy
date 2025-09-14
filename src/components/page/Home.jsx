@@ -2,7 +2,8 @@ import React from 'react';
 import Hero from '../website/Hero';
 import HeroVideoDemo from '../website/HeroVideoDemo';
 import CompanyLogos from '../website/CompanyLogos';
-import EmptySection from '../website/EmptySection';
+import EmptySection from '../website/SuitabilityLayer';
+import DemoVideoSection from '../website/DemoVideoSection';
 
 function Home() {
   return (
@@ -12,6 +13,7 @@ function Home() {
       <HeroVideoDemo />
       <CompanyLogos />
       <EmptySection />
+       <DemoVideoSection />
     </main>
   );
 }
