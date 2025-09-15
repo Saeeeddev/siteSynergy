@@ -4,6 +4,9 @@ import HeroVideoDemo from '../website/HeroVideoDemo';
 import CompanyLogos from '../website/CompanyLogos';
 import EmptySection from '../website/SuitabilityLayer';
 import DemoVideoSection from '../website/DemoVideoSection';
+import CtaSection from '../website/CtaSection';
+import DataToDecision from '../website/DataToDecision';
+
 
 function Home() {
   return (
@@ -13,7 +16,10 @@ function Home() {
       <HeroVideoDemo />
       <CompanyLogos />
       <EmptySection />
-       <DemoVideoSection />
+      <DemoVideoSection />
+      <DataToDecision />
+      <CtaSection />
+
     </main>
   );
 }
